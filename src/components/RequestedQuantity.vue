@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Please enter the quantity to get thr price</h1>
+    <h1>Please enter the quantity to get the price</h1>
     <form @submit.prevent="submit">
       <input type="text" id="quantity" v-model="form.quantity" required />
       <button type="submit">Submit</button>
