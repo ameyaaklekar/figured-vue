@@ -4,7 +4,9 @@
 ```
 npm install
 ```
-
+```
+copy the content of example.env file .env
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
