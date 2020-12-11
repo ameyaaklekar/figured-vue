@@ -20,7 +20,7 @@ export default {
     async getRequestedPrice({ commit }, data) {
       try {
         let response = await axios.post("product/value", data)
-        commit("SET_REQUESTED_PRICE", response.data.productValue)
+        if (response.data,success) commit("SET_REQUESTED_PRICE", response.data.productValue)
         return response.data
       } catch (e) {
         commit("SET_REQUESTED_PRICE", null)
